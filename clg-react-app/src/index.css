@@ -1,13 +1,65 @@
-body {
+@import-normalize;
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  ---main-bg-color: #fff;
+  ---main-font-family: "essentialsans";
+  ---main-font-weight: "normal";
+  ---main-font-size: 1rem;
+  ---main-border-color: #000;
+  ---main-font-color: #f8b281;
+  ---secondary-font-color: #1b1b1b;
 }
+
+@font-face {
+  font-family: "EditorsNote";
+  src: local("EditorsNote"),
+    url("./fonts/Editor'sNote-Regular.woff") format ("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: var(---main-font-family);
+  font-weight: var(---main-font-weight);
+  font-size: var(---main-font-size);
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+
+p {
+  font-size: 1rem;
+  font-family: "essentialsans";
+}
+
+h1 {
+  color: var(---main-font-color);
+  font-size: 2rem;
+  font-family: "essentialsans";
+  src: local("essentialsans"), url("./fonts/EssentialSans-Regular.woff") format ("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h2 {
+  font-size: 1.8rem;
+  line-height: 125%;
+  padding: 1rem 0rem;
+  font-family: "editorsnote";
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 125%;
+}
+

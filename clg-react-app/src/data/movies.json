@@ -1,0 +1,23 @@
+{
+    "movies": [
+        {
+            "title": "Tenet",
+            "watchedCount": 3,
+            "yearReleased": 2020,
+            "isNew": false
+        },
+        {
+            "title": "Squid Game",
+            "watchedCount": 1,
+            "yearReleased": 2020,
+            "isNew": true
+        },
+        {
+            "title": "Knives Out",
+            "watchedCount": 2,
+            "yearReleased": 2019,
+            "isNew": false
+        }
+
+    ]
+}

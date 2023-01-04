@@ -1,8 +1,26 @@
 
 
 
-.front-page {
+.frontPage {
     min-height: 100vh;
     color: #FFF;
     padding: 0.25rem 1.5rem 0rem 1.5rem;
 }
+
+/* NEON SIGN IMAGE NOT RIGHT FOR NOW */
+/* .heroImage {
+width: 50%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+height: 50%
+} */
+
+.heroImage2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    }

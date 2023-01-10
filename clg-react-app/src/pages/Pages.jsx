@@ -1,12 +1,11 @@
 import React from 'react';
 import Home from './home';
+import { Route, Switch } from "react-router-dom";
 
 function Pages() {
   return (
-    <div>
-        {/* <Home /> */}
-    </div>
+<Home />
   )
 }
 
-export default Pages
+export default Pages;

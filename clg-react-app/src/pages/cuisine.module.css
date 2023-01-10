@@ -1,0 +1,19 @@
+.cuisineGrid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+grid-gap: 3rem;
+}
+
+.cuisineCard img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.cuisineCard a {
+    text-decoration: none;
+}
+
+.cuisineCard h4 {
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,19 +1,46 @@
-.cuisineGrid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-grid-gap: 3rem;
+/* body {
+    margin: 2rem;
+} */
+
+.cuisineWrapper {
+    margin: 4rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 3rem;
+    
+
 }
 
-.cuisineCard img {
-    width: 100%;
+.cuisineCard {
+    min-height: 18rem;
     border-radius: 2rem;
+    overflow: hidden;
 }
 
-.cuisineCard a {
+img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
     text-decoration: none;
 }
 
-.cuisineCard h4 {
+h4 {
     text-align: center;
     padding: 1rem;
+    color: rgb(80, 80, 80);
+}
+
+
+h3 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    color: rgb(213, 104, 104);
+    position:absolute;
+    z-index: 2;
+    line-height: 0rem;
+    margin: 0rem;
 }

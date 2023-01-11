@@ -41,6 +41,6 @@ h3 {
     color: rgb(213, 104, 104);
     position:absolute;
     z-index: 2;
-    line-height: 0rem;
-    margin: 0rem;
+    line-height: 1.25rem;
+    /* margin: 0rem; */
 }

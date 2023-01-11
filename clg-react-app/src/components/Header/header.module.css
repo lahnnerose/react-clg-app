@@ -1,0 +1,54 @@
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    height: 5rem;
+    width: 100vw;
+    background-color: #3330;
+    color: #FFF;
+    display: flex;
+    align-items: stretch;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+
+}
+
+a {
+    color: inherit;
+    gap: 2rem;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.siteTitle {
+    font-size: 2rem;
+    padding: 0rem 2rem;
+    text-shadow: #FC0 1px 0 3px;
+
+}
+
+li {
+    position: relative;
+}
+
+
+
+nav li.active {
+    background-color: #555;
+}
+
+nav li:hover {
+    background-color: #777;
+}
+

@@ -39,22 +39,23 @@ const SLink = styled(NavLink)`
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    background: linear-gradient(35deg, #494949, #313131);
+    background: rgba(245, 118, 33, 0.88);
     border-radius: 50%;
     width: 7rem;
     height: 7rem;
     text-decoration: none;
     cursor: pointer;
-    transform: scale(0.5);
+    transform: scale(0.6);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 h4 {
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 1.25rem;
     padding: 0rem;
 }
 
 svg {
-    color: rgb(255, 255, 255);
+    color: white;
     transform: scale(2);
     margin-bottom: 1rem;
 }

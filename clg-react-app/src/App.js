@@ -6,14 +6,14 @@ import Pages from "./pages/Pages";
 import Category from "./components/Category";
 import Search from "./components/Search";
 import styled from "styled-components";
-import { GiKnifeFork } from "react-icons/gi";
+import { MdFoodBank } from "react-icons/md";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Nav>
-          <GiKnifeFork />
+          <MdFoodBank />
           <Logo to={"/"}>deficit database</Logo>
         </Nav>
         <Search />
@@ -29,6 +29,7 @@ const Logo = styled(Link)`
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "Lobster Two", cursive;
+  color: white;
 `;
 
 const Nav = styled.div`
@@ -39,6 +40,7 @@ const Nav = styled.div`
 
   svg {
     font-size: 2rem;
+    color: white;
   }
 `;
 

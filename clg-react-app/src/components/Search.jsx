@@ -37,9 +37,9 @@ div {
 
 input {
     border: none;
-    background: linear-gradient(35deg, #494949, #313131);
+    // background: linear-gradient(35deg, #494949, #313131);
     font-size: 1.5rem;
-    color: white;
+    // color: #edede9;
     padding: 1rem 3rem;
     border-radius: 1rem;
     outline: none;
@@ -51,7 +51,7 @@ svg {
     top: 50%;
     left: 0%;
     transform: translate(100%, -50%);
-    color: white;
+    // color: linear-gradient(35deg, #494949, #313131);
 }
 
 `

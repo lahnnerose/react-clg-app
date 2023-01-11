@@ -2,9 +2,11 @@
 
 
 .frontPage {
+    /* background-color: #e9edc9; */
     min-height: 100vh;
-    color: #FFF;
+    /* color: #FFF; */
     padding: 0.25rem 1.5rem 0rem 1.5rem;
+    background: radial-gradient(#e66465, #9198e5);
 }
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
 function Searched() {
 
@@ -24,7 +25,12 @@ function Searched() {
 
 
   return (
-    <Grid>
+    <Grid 
+    animate={{ opacity: 1 }}
+    initial={{ opacity: 0 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.5 }}
+    >
         {searchedRecipes.map((item) => {
         return (
             <Card key={item.id}>
@@ -49,7 +55,9 @@ const Grid = styled.div`
 `
 
 const Card = styled.div`
-
+min-height: 18rem;
+border-radius: 2rem;
+ overflow: hidden;
 img {
     width: 100%;
     border-radius: 2rem;
@@ -65,11 +73,6 @@ h4 {
 }
 `;
 
-// .cuisineCard {
-//     min-height: 18rem;
-//     border-radius: 2rem;
-//     overflow: hidden;
-// }
 
 // h3 {
 //     text-align: center;

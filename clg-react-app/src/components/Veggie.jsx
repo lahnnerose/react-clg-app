@@ -62,14 +62,22 @@ function Veggie() {
     );
 }
 
+
+
 const Wrapper = styled.div`
     margin: 4rem 0rem;
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+}
 `
 const Card = styled.div`
     min-height: 18rem;
     border-radius: 2rem;
     overflow: hidden;
     position: relative;
+
 
 img {
     border-radius: 2rem;

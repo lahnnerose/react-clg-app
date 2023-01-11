@@ -1,13 +1,16 @@
 import React from 'react';
 import Home from './home';
 import Cuisine from './cuisine';
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, useLocation } from "react-router-dom";
 import Searched from './Searched';
 import Recipe from './Recipe';
+import { AnimatePresence } from 'framer-motion';
 
 function Pages() {
+  const location = useLocation();
   return (
-    <Switch>
+    <AnimatePresence wait>
+    <Switch Location={location} key={location.pathname}>
       <Route exact path="/">
         <Home />
         </Route>
@@ -21,6 +24,7 @@ function Pages() {
           <Recipe />
         </Route>
     </Switch>
+  </AnimatePresence>
   );
 }
 

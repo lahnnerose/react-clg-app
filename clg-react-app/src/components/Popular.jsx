@@ -65,6 +65,11 @@ function Popular() {
 
 const Wrapper = styled.div`
     margin: 4rem 0rem;
+
+h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
 `
 const Card = styled.div`
     min-height: 18rem;

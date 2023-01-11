@@ -52,7 +52,7 @@ function Recipe() {
           <li key={ingredient.id}>{ingredient.original}</li>
           ))}
         </ul>
-        )};
+        )}
       </ Info>
       </ DetailWrapper>
   );
@@ -70,6 +70,10 @@ const DetailWrapper = styled.div`
  .active {
   background: linear-gradient(35deg, #494949, #313131);
   color: white;
+ }
+
+ img {
+  border-radius: 2rem;
  }
 
  h3 {
@@ -96,13 +100,28 @@ const DetailWrapper = styled.div`
 `;
 
 
+// const Button = styled.button`
+//   padding: 1rem; 2rem;
+//   color: #313131;
+//   background: white;
+//   border: 2px solid black;
+//   margin-right: 2rem;
+//   font-weight: 600;
+// `
+
+{/* <button class="button-17" role="button">Button 17</button> */}
+
 const Button = styled.button`
-  padding: 1rem; 2rem;
-  color: #313131;
-  background: white;
-  border: 2px solid black;
-  margin-right: 2rem;
-  font-weight: 600;
+  background-color: #fff;
+  border-radius: 2rem;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 48px;
+  letter-spacing: .5px;
+  padding: 2px 24px;
 `
 
 const Info = styled.div`

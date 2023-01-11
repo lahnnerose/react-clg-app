@@ -1,19 +1,23 @@
 import styles from "./home.module.css";
-import heroImage2 from '../images/brandingPink.png';
+// import bgImage from '../images/gradientBG.jpg';
 import Veggie from "../components/Veggie";
 import Popular from "../components/Popular";
+import { motion } from "framer-motion";
 
 
 const Home = () => {
     return (
+        <motion.div
+        
+        >
         <div className="frontPage">
-        <img src={heroImage2} alt="Woman's hand pouring canned beverage into a martini glass on a pink background'" className={styles.heroImage2}/>
+        {/* <img src={bgImage} alt="Woman's hand pouring canned beverage into a martini glass on a pink background'" className={styles.heroImage2}/> */}
         <h1>
-        Recipes that hit the spot and fit with your goals!
+        All your favourite recipes reinvented to fit your macros
         </h1>
         <Veggie />
         <Popular />
-        </div>
+        </div></motion.div>
     );
 };
 

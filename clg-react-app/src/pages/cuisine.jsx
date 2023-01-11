@@ -54,6 +54,7 @@ const Card = styled.div`
     overflow: hidden;
 
 img {
+    border-radius: 2rem;
     position: relative;
     width: 100%;
     object-fit: cover;

@@ -2,4 +2,37 @@
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
+    color: rgb(58, 58, 58);
+}
+
+.sLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: linear-gradient(35deg, #494949, #313131);
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(0.6);
+}
+
+.sLink h4 {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    padding: 0rem;
+}
+
+.sLink svg {
+    color: rgb(255, 255, 255);
+    transform: scale(2.5);
+    margin-bottom: 1rem;
+}
+
+&.active {
+    background: linear-gradient(to right, #f27121, #e94057);
+    
 }

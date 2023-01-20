@@ -63,8 +63,7 @@ function Recipe() {
 
 const DetailWrapper = styled.div`
  color: black;
- margin-top: 10rem;
- margin-bottom: 5rem;
+ margin: 3rem 1rem;
  display: flex;
 
  .active {
@@ -100,17 +99,6 @@ const DetailWrapper = styled.div`
 `;
 
 
-// const Button = styled.button`
-//   padding: 1rem; 2rem;
-//   color: #313131;
-//   background: white;
-//   border: 2px solid black;
-//   margin-right: 2rem;
-//   font-weight: 600;
-// `
-
-{/* <button class="button-17" role="button">Button 17</button> */}
-
 const Button = styled.button`
   background-color: #fff;
   border-radius: 2rem;
@@ -122,10 +110,11 @@ const Button = styled.button`
   height: 48px;
   letter-spacing: .5px;
   padding: 2px 24px;
+  margin-right: 2rem;
 `
 
 const Info = styled.div`
- margin-left: 10rem;
+ margin: 0.5rem 3rem;
 `
 
 export default Recipe;

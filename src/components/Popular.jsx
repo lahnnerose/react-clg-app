@@ -42,7 +42,7 @@ function Popular() {
                                 gap: '2.5rem',
                             }}>
 
-                        {popular.map((recipe) => {
+                        {popular && popular.map((recipe) => {
                             return(
                                 <SplideSlide key={recipe.id}>
                                 <Card>

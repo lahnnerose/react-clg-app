@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { Link, BrowserRouter } from "react-router-dom";
 import "./fonts/Editor'sNote-Italic.woff";
 import "./fonts/Editor'sNote-Regular.woff";
